@@ -44,7 +44,7 @@ export function DashboardLayout({ children, navItems, userType }: DashboardLayou
 
     // Show welcome toast
     toast({
-      title: `Welcome to VedSetu!`,
+      title: `Welcome to GuruAI!`,
       description: `You are logged in as a ${userType}.`,
     })
   }, [userType, toast])
@@ -64,7 +64,7 @@ export function DashboardLayout({ children, navItems, userType }: DashboardLayou
           <SidebarHeader className="flex items-center justify-center py-4 border-b">
             <div className="flex items-center gap-2">
               <GraduationCap className="h-6 w-6 text-primary" />
-              <h1 className="text-xl font-bold text-primary">VedSetu</h1>
+              <h1 className="text-xl font-bold text-primary">GuruAI</h1>
             </div>
           </SidebarHeader>
           <SidebarContent>

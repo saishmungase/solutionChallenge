@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "VedSetu - Connecting Teachers and Students",
+  title: "GuruAI - Connecting Teachers and Students",
   description: "An educational platform that reduces teacher workload and provides personalized learning for students.",
     generator: 'v0.dev'
 }

@@ -11,7 +11,7 @@ export default function LandingPage() {
         <nav className="flex items-center justify-between mb-16">
           <div className="flex items-center gap-2">
             <GraduationCap className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold text-primary">VedSetu</h1>
+            <h1 className="text-2xl font-bold text-primary">GuruAI</h1>
           </div>
         </nav>
 
@@ -21,7 +21,7 @@ export default function LandingPage() {
               Connecting Teachers and Students in a Smarter Way
             </h1>
             <p className="text-lg text-muted-foreground">
-              VedSetu reduces teacher workload by managing assignments, tests, and providing personalized learning
+              GuruAI reduces teacher workload by managing assignments, tests, and providing personalized learning
               experiences for students.
             </p>
             <div className="pt-4 flex gap-4">
@@ -42,7 +42,7 @@ export default function LandingPage() {
               <div className="edu-section overflow-hidden">
                 <img
                   src="/placeholder.svg?height=400&width=600"
-                  alt="VedSetu Platform"
+                  alt="GuruAI Platform"
                   className="w-full h-auto rounded-md"
                 />
               </div>
@@ -53,7 +53,7 @@ export default function LandingPage() {
 
       {/* Features Section */}
       <section className="container mx-auto px-4 py-20">
-        <h2 className="text-3xl font-bold text-center text-foreground mb-16">How VedSetu Works</h2>
+        <h2 className="text-3xl font-bold text-center text-foreground mb-16">How GuruAI Works</h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
@@ -152,7 +152,7 @@ export default function LandingPage() {
               Ready to transform your teaching and learning experience?
             </h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join VedSetu today and experience a smarter way to connect teachers and students.
+              Join GuruAI today and experience a smarter way to connect teachers and students.
             </p>
             <div className="flex gap-4 justify-center">
               <Link href="/teacher/dashboard">
@@ -176,10 +176,10 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2 mb-6 md:mb-0">
               <GraduationCap className="h-6 w-6 text-primary" />
-              <h1 className="text-xl font-bold text-primary">VedSetu</h1>
+              <h1 className="text-xl font-bold text-primary">GuruAI</h1>
             </div>
             <div className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} VedSetu. All rights reserved.
+              © {new Date().getFullYear()} GuruAI. All rights reserved.
             </div>
           </div>
         </div>
